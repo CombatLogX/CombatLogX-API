@@ -9,5 +9,6 @@ public interface CombatTag {
     @NotNull TagType getTagType();
     @NotNull TagReason getTagReason();
     long getExpirationMillis();
+    void setExpirationMillis(long expirationMillis);
     boolean isExpired();
 }
